@@ -1,0 +1,18 @@
+/* style for body */
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+  }
+  /* style for header image*/
+  .bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("shutterstock_1572976891.jpg");
+    min-height: 75%;
+  }
+  /* style for menu */
+  .menu {
+    display: none;
+  }
+
+  
