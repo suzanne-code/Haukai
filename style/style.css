@@ -7,7 +7,7 @@ body, html {
   .bgimg {
     background-position: center;
     background-size: cover;
-    background-image: url("shutterstock_1572976891.jpg");
+    background-image: url("header.jpg");
     min-height: 75%;
   }
   /* style for menu */
