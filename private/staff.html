@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+<title>The Haukai Restaurant</title>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="\style\style.css">
+<link rel="stylesheet" href="\style\w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="script\script.js"></script>
+
+</head>
+<body>
+    
+
+        <!-- Navigation bar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="\index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="\hours.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">HOURS</a>
+    <a href="\reservations.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RESERVATIONS</a>
+    <a href="\menu.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MENU</a>
+    <a href="\contact.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT US</a>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hide-small w3-right"></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens  -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="\hours.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOURS</a>
+  <a href="\reservations.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">RESERVATIONS</a>
+  <a href="\menu.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MENU</a>
+  <a href="\contact.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT US</a>
+  
+</div>
+
+         <!-- header  -->
+        <header class="bgimg w3-display-container w3-grayscale-min" id="home">
+          
+          <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+            <span class="w3-tag">Open from 11am-9pm, Wednesday to Sunday</span>
+          </div>
+          <div class="w3-display-middle w3-center">
+            <span class="w3-text-white" style="font-size:8vw;">Haukai Restaurant</span>
+          </div>
+          <div class="w3-display-bottomright w3-center w3-padding-large">
+            <span class="w3-tag">1 Island street, Kerikeri, Bay of Islands</span>
+          </div>
+      
+        </header>
+        <!-- Add a background color and large text to the whole page -->
+        <div class="w3-sand  w3-large">
+          <!-- About Container -->
+      <div class="w3-container" id="about">
+        <div class="w3-content" style="max-width:600px">
+        <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Staff Page</span></h5>
+        <p>Welcome to the staff page. Please see staff contact details here and the roster.</p>
+        
+         <div class="w3-container">
+
+            <h2>Staff contact details</h2>
+            <div class="w3-responsive">
+            <table class="w3-table-all w3-hoverable">
+            <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Job Title</th>
+              <th>Mobile Number</th>
+            </tr>
+            <tr>
+              <td>Jill</td>
+              <td>Martin</td>
+              <td>Owner</td>
+              <td>021 4589685</td>
+            </tr>
+            <tr>
+                <td>Steve</td>
+                <td>Robertson</td>
+                <td>Owner</td>
+                <td>021 7895693</td>
+              </tr>
+              <tr>
+                <td>Harrison</td>
+                <td>Manu</td>
+                <td>Chef</td>
+                <td>022 1289678</td>
+              </tr>
+              <tr>
+                <td>Tara</td>
+                <td>Mcleod</td>
+                <td>Sous Chef</td>
+                <td>022 897569</td>
+              </tr>
+              <tr>
+                <td>Ben</td>
+                <td>Edwards</td>
+                <td>Kitchen Hand</td>
+                <td>022 745632</td>
+              </tr>
+              <tr>
+                <td>Emily</td>
+                <td>Harris</td>
+                <td>Kitchen Hand</td>
+                <td>021 238956</td>
+              </tr>
+              <tr>
+                <td>Aroha</td>
+                <td>Smith</td>
+                <td>Front of House</td>
+                <td>021 789 4563</td>
+              </tr>
+              <tr>
+                <td>Rory</td>
+                <td>Tama</td>
+                <td>Waiter</td>
+                <td>027 5696123</td>
+              </tr>
+              <tr>
+                <td>Moana</td>
+                <td>Willams</td>
+                <td>Waiteress</td>
+                <td>022 236985</td>
+              </tr>
+            </table>
+            </div>
+            
+
+            <h2>Staff roster</h2>
+            <p>Here is the roster for the next two weeks. If unable to come in to work please advise Jill. Please note Haukai Restaurant is closed Mon-Tue</p>
+            <div class="w3-responsive">
+            <table class="w3-table-all w3-hoverable">
+            <tr>
+              <th>Staff</th>
+              <th>Week Start 27 Sept</th>
+              <th>Wed</th>
+              <th>Thur</th>
+              <th>Fri</th>
+              <th>Sat</th>
+              <th>Sun</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Jill</th>
+                <td>Start</td>
+                    <td>9.30</td>
+                    <td>9.30</td>
+                    <td>9.30</td>
+                    <td>9.30</td>
+                    <td>9.30</td>
+                </tr>
+                <tr>
+                <td>Finish</td>
+                    <td>16.00</td>
+                    <td>16.00</td>
+                    <td>16.00</td>
+                    <td>16.00</td>
+                    <td>16.00</td>
+                </tr>
+                <tr>
+                <th rowspan="2">Steve</th>
+                <td>Start</td>
+                    <td>14.30</td>
+                    <td>14.30</td>
+                    <td>14.30</td>
+                    <td>14.30</td>
+                    <td>14.30</td>
+                </tr>
+                <tr>
+                <td>Finish</td>
+                    <td>21.00</td>
+                     <td>21.00</td>
+                     <td>21.00</td>
+                     <td>21.00</td>
+                     <td>21.00</td>
+                </tr>
+                <tr>
+                <th rowspan="2">Harrison</th>
+                <td>Start</td>
+                <td>11.00</td>
+                <td>11.00</td>
+                <td>11.00</td>
+                <td>11.00</td>
+                <td>11.00</td>
+                </tr>
+                <tr>
+                <td>Finish</td>
+                <td>20.00</td>
+                <td>20.00</td>
+                <td>20.00</td>
+                <td>20.00</td>
+                <td>20.00</td>
+                </tr>
+                <th rowspan="2">Tara</th>
+                <td>Start</td>
+                <td>14.00</td>
+                <td>13.00</td>
+                <td>13.00</td>
+                <td>13.00</td>
+                <td>13.00</td>
+                </tr>
+                <tr>
+                <td>Finish</td>
+                <td>21.00</td>
+                <td>21.00</td>
+                <td>21.00</td>
+                <td>21.00</td>
+                <td>21.00</td>
+                </tr>
+                <th rowspan="2">Ben</th>
+                <td>Start</td>
+                <td>--</td>
+                <td>--</td>
+                <td>17.00</td>
+                <td>17.00</td>
+                <td>17.00</td>
+                </tr>
+                <tr>
+                <td>Finish</td>
+                <td>--</td>
+                <td>--</td>
+                <td>20.00</td>
+                <td>20.00</td>
+                <td>20.00</td>
+                </tr>
+                <th rowspan="2">Emily</th>
+                <td>Start</td>
+                <td>11.00</td>
+                <td>11.00</td>
+                <td>11.00</td>
+                <td>11.00</td>
+                <td>11.00</td>
+                </tr>
+                <tr>
+                <td>Finish</td>
+                <td>19.00</td>
+                <td>19.00</td>
+                <td>20.00</td>
+                <td>21.00</td>
+                <td>21.00</td>
+                </tr>
+                <th rowspan="2">Aroha</th>
+                <td>Start</td>
+                <td>13.00</td>
+                <td>13.00</td>
+                <td>13.00</td>
+                <td>13.00</td>
+                <td>13.00</td>
+                </tr>
+                <tr>
+                <td>Finish</td>
+                <td>20.00</td>
+                <td>20.00</td>
+                <td>21.00</td>
+                <td>21.00</td>
+                <td>21.00</td>
+                </tr>
+                <th rowspan="2">Rory</th>
+                <td>Start</td>
+                <td>11.00</td>
+                <td>11.00</td>
+                <td>11.00</td>
+                <td>11.00</td>
+                <td>11.00</td>
+                </tr>
+                <tr>
+                <td>Finish</td>
+                <td>21.00</td>
+                <td>21.00</td>
+                <td>21.00</td>
+                <td>21.00</td>
+                <td>21.00</td>
+                </tr>
+                <th rowspan="2">Moana</th>
+                <td>Start</td>
+                <td>--</td>
+                <td>17.00</td>
+                <td>16.00</td>
+                <td>16.00</td>
+                <td>16.00</td>
+                </tr>
+                <tr>
+                <td>Finish</td>
+                <td>--</td>
+                <td>20.00</td>
+                <td>21.00</td>
+                <td>21.00</td>
+                <td>21.00</td>
+                </tr>
+                <tr>
+                 <th>Staff</th>
+                    <th>Week Start 4 Oct</th>
+                    <th>Wed</th>
+                    <th>Thur</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                    <th>Sun</th>
+                  </tr>
+                  <tr>
+                      <th rowspan="2">Jill</th>
+                      <td>Start</td>
+                          <td>9.30</td>
+                          <td>9.30</td>
+                          <td>9.30</td>
+                          <td>9.30</td>
+                          <td>9.30</td>
+                      </tr>
+                      <tr>
+                      <td>Finish</td>
+                          <td>16.00</td>
+                          <td>16.00</td>
+                          <td>16.00</td>
+                          <td>16.00</td>
+                          <td>16.00</td>
+                      </tr>
+                      <tr>
+                      <th rowspan="2">Steve</th>
+                      <td>Start</td>
+                          <td>14.30</td>
+                          <td>14.30</td>
+                          <td>14.30</td>
+                          <td>14.30</td>
+                          <td>14.30</td>
+                      </tr>
+                      <tr>
+                      <td>Finish</td>
+                          <td>21.00</td>
+                           <td>21.00</td>
+                           <td>21.00</td>
+                           <td>21.00</td>
+                           <td>21.00</td>
+                      </tr>
+                      <tr>
+                      <th rowspan="2">Harrison</th>
+                      <td>Start</td>
+                      <td>11.00</td>
+                      <td>11.00</td>
+                      <td>11.00</td>
+                      <td>11.00</td>
+                      <td>11.00</td>
+                      </tr>
+                      <tr>
+                      <td>Finish</td>
+                      <td>20.00</td>
+                      <td>20.00</td>
+                      <td>20.00</td>
+                      <td>20.00</td>
+                      <td>20.00</td>
+                      </tr>
+                      <th rowspan="2">Tara</th>
+                      <td>Start</td>
+                      <td>14.00</td>
+                      <td>13.00</td>
+                      <td>13.00</td>
+                      <td>13.00</td>
+                      <td>13.00</td>
+                      </tr>
+                      <tr>
+                      <td>Finish</td>
+                      <td>21.00</td>
+                      <td>21.00</td>
+                      <td>21.00</td>
+                      <td>21.00</td>
+                      <td>21.00</td>
+                      </tr>
+                      <th rowspan="2">Ben</th>
+                      <td>Start</td>
+                      <td>--</td>
+                      <td>--</td>
+                      <td>17.00</td>
+                      <td>17.00</td>
+                      <td>17.00</td>
+                      </tr>
+                      <tr>
+                      <td>Finish</td>
+                      <td>--</td>
+                      <td>--</td>
+                      <td>20.00</td>
+                      <td>20.00</td>
+                      <td>20.00</td>
+                      </tr>
+                      <th rowspan="2">Emily</th>
+                      <td>Start</td>
+                      <td>11.00</td>
+                      <td>11.00</td>
+                      <td>11.00</td>
+                      <td>11.00</td>
+                      <td>11.00</td>
+                      </tr>
+                      <tr>
+                      <td>Finish</td>
+                      <td>19.00</td>
+                      <td>19.00</td>
+                      <td>20.00</td>
+                      <td>21.00</td>
+                      <td>21.00</td>
+                      </tr>
+                      <th rowspan="2">Aroha</th>
+                      <td>Start</td>
+                      <td>13.00</td>
+                      <td>13.00</td>
+                      <td>13.00</td>
+                      <td>13.00</td>
+                      <td>13.00</td>
+                      </tr>
+                      <tr>
+                      <td>Finish</td>
+                      <td>20.00</td>
+                      <td>20.00</td>
+                      <td>21.00</td>
+                      <td>21.00</td>
+                      <td>21.00</td>
+                      </tr>
+                      <th rowspan="2">Rory</th>
+                      <td>Start</td>
+                      <td>11.00</td>
+                      <td>11.00</td>
+                      <td>11.00</td>
+                      <td>11.00</td>
+                      <td>11.00</td>
+                      </tr>
+                      <tr>
+                      <td>Finish</td>
+                      <td>21.00</td>
+                      <td>21.00</td>
+                      <td>21.00</td>
+                      <td>21.00</td>
+                      <td>21.00</td>
+                      </tr>
+                      <th rowspan="2">Moana</th>
+                      <td>Start</td>
+                      <td>--</td>
+                      <td>17.00</td>
+                      <td>16.00</td>
+                      <td>16.00</td>
+                      <td>16.00</td>
+                      </tr>
+                      <tr>
+                      <td>Finish</td>
+                      <td>--</td>
+                      <td>20.00</td>
+                      <td>21.00</td>
+                      <td>21.00</td>
+                      <td>21.00</td>
+                      </tr>
+                    </div>     
+            </table>
+        </div>   
+   
+        <p></p>
+    </div>
+   
+  </div>
+        
+</body>
+   <!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>© 2021 All rights reserved The Haukai Restaurant.</p>
+  <a href="\privacy.html" title="Privacy Statement" target="_blank" class="w3-hover-text-dark-grey">Privacy Statement</a></p>
+</footer>
+</html>
