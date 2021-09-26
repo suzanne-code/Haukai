@@ -3,7 +3,7 @@ var express = require(express);
 var app = express();
 
 app.get("/", (req, res)=>{
-    res.send("Haukai Website");
+    res.send("Hello World");
 });
 
 app.listen(HTTP_Port);
